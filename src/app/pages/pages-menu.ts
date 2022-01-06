@@ -2,6 +2,30 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
+    title: 'DIGITAL IDENTITY',
+    group: true,
+  },
+  {
+    title: 'Connections',
+    icon: 'link-2-outline',
+    link: '/pages/dashboard',
+    home: true,
+  },
+  {
+    title: 'Identity Types',
+    icon: 'credit-card-outline',
+    link: '/pages/iot-dashboard',
+  },
+  {
+    title: 'Verifications',
+    icon: 'checkmark-square-2-outline',
+    link: '/pages/iot-dashboard',
+  },
+  {
+    title: 'DASHBOARDS',
+    group: true,
+  },
+  {
     title: 'E-commerce',
     icon: 'shopping-cart-outline',
     link: '/pages/dashboard',
